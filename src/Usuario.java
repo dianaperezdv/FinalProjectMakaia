@@ -1,13 +1,13 @@
-public class Usuario {
-    private double cedula;
+public abstract class Usuario {
+    private int cedula;
     private String nombre;
     private String apellido;
     private String correoElectronico;
-    private double celular;
+    private String celular;
     private String direccionDeResidencia;
     private String ciudadDeResidencia;
 
-    public Usuario(double cedula, String nombre, String apellido, String correoElectronico, double celular, String direccionDeResidencia, String ciudadDeResidencia) {
+    public Usuario(int cedula, String nombre, String apellido, String correoElectronico, String celular, String direccionDeResidencia, String ciudadDeResidencia) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
